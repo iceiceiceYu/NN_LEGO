@@ -1,0 +1,17 @@
+{
+  "name": "nn-diagram",
+  "version": "1.0.0",
+  "description": "customerized for tool boxes of Deep Learning Models",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "copy": "copyfiles  package.json ../../dist/class-diagram/",
+    "build": "tsc && npm run copy"
+  },
+  "author": "Song ZiYang",
+  "license": "ISC",
+  "dependencies": {
+    "copyfiles": "^2.4.1",
+    "tsc": "^1.20150623.0"
+  }
+}
