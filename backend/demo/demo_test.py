@@ -4,8 +4,9 @@ import Code_generator
 from block import Block
 from curve import Curve
 if __name__ == '__main__':
-
-    b_list, c_list = JSON_loader.loader('final_demo.json')
+    # b_list, c_list = JSON_loader.loader('simple_demo.json')
+    b_list, c_list = JSON_loader.loader('complicated_demo.json')
+    # b_list, c_list = JSON_loader.loader('final_demo.json')
     print(c_list)
     print(b_list)
 

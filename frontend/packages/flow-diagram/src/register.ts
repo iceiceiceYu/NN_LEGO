@@ -16,8 +16,8 @@ import { flowDisplay, flowDisplayAnchors, flowDisplayIconRect, flowDisplayTextRe
 import { flowParallel, flowParallelAnchors } from './parallel';
 import { flowComment, flowCommentAnchors } from './comment';
 
-import {rectangleIconRect, rectangleTextRect} from '@topology/core/src/middles/nodes/rectangle.rect'
-import {rectangle} from '@topology/core/src/middles/nodes/rectangle'
+// import {rectangleIconRect, rectangleTextRect} from '@topology/core/src/middles/nodes/rectangle.rect'
+// import {rectangle} from '@topology/core/src/middles/nodes/rectangle'
 
 export function register() {
 
